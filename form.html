@@ -19,7 +19,7 @@
         <form action="">
 
             <label for="nombre">Nombre del Carro: </label>
-            <input type="text" name="nombre" required>
+            <input type="text" name="nombre">
 
             <br>
             <label for="año">Año: </label>
@@ -27,7 +27,7 @@
 
 
             <label for="precio">Precio: </label>
-            <input type="nombre" name="contra">
+            <input type="number" name="contra">
 
             <label for="registro">Fecha de registro </label>
             <input type="date" name="registro">
@@ -51,8 +51,13 @@
 
 
 
-            <input type="checkbox" name="aceptar">
-            Acepto los términos y condiciones
+            <div class="chechbox-container">
+
+                <input type="checkbox" name="aceptar">
+                Acepto los términos y condiciones
+
+
+            </div>
 
 
             <button type="submit">Registrar</button>
