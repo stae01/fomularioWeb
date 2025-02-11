@@ -11,10 +11,23 @@ body{
 #container {
 
 width: 90%;
-margin: 40px auto;
+margin:  auto;
 padding: 20px;
 background-color: rgb(255, 255, 255);
 border-radius: 10px;
 box-shadow: 0 5px 10px black;
+
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 20px;
 
 }
