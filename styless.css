@@ -12,7 +12,7 @@ body {
 
 #container {
 
-    width: 30%;
+    width: 50%;
     margin: 3% auto;
     padding: 20px;
     background-color: rgb(234, 242, 243);
@@ -73,4 +73,65 @@ input[type="checkbox"] {
 
 input[type="checkbox"] {
     margin: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table-container {
+    width: 100%;  
+    overflow-x: auto; 
+    margin-top: 20px;  
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #32466a;
+}
+
+td {
+    background-color: #fff;
+    color: #34495e;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+button:active {
+    background-color: #1e7e34;
+}
+
+button.delete {
+    background-color: #dc3545;
+}
+
+button.delete:hover {
+    background-color: #c82333;
+}
+
+button.delete:active {
+    background-color: #bd2130;
 }
